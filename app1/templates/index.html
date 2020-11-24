@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %} Inicio {% endblock %}
+{% block head %}
+<meta name="keywords" content="RedBip, TarjetaBip, Transantiago, Metro, Santiago, Chile, Sistema de Transporte,
+ saldo tarjeta bip, saldo bip">
+<meta name="description" content="Consulta el saldo de tu tarjeta bip aunque esta este vencida. Pagina hecha con DJANGO Framework">
+{% endblock %}
+{% block content %}
+          <h1>N° Tarjeta bip!</h1>
+          <form  class="flex-form" action="resultado/" method="GET">
+            <label for="from">
+              <i class="ion-location"></i>
+            </label>
+            <input id="id" type="search" placeholder="Ingresa el codigo aqui" name="tid">
+            <input type="submit" value="Consultar">
+          </form>
+{% endblock %}

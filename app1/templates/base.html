@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %} {% endblock %}</title>
+    <link rel="stylesheet" href="https://drive.google.com/uc?export=view&id=1G7iOYL5QUnqAONv3v8OYAjZRSZv3qn1t">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div class="container">
+
+        <header>
+          <img src="https://i.ibb.co/VBjnWJK/logo.png" alt="">
+          <nav>
+            <ul>
+              <li>
+                <a class="btn" href="#" title="Register / Log In">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      
+        <div class="cover">
+            {% block content %}
+            {% endblock %}
+          <div id="madeby">
+            <p>Editada por Manuel García Marín</p>
+          </div>
+        </div>
+      
+      </div>
+</body>
+</html>
