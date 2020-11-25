@@ -1,7 +1,13 @@
 body {
-    background-color: #100e17;
-    font-family: 'Open Sans', sans-serif;
-  }
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background-color: #1C1C1C;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #0a0a0b;
+  overflow: hidden;
+}
   
   .container {
     position: absolute;
@@ -80,7 +86,7 @@ body {
   
   .circle {
     position: absolute;
-    top: 150px;
+    top: 170px;
     left: calc(50% - 60px);
   }
   

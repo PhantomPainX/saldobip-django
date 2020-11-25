@@ -1,17 +1,19 @@
+{% load static %}
+
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} {% endblock %}</title>
-    <link rel="stylesheet" href="https://drive.google.com/uc?export=view&id=1G7iOYL5QUnqAONv3v8OYAjZRSZv3qn1t">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
     {% block head %}{% endblock %}
 </head>
-<body>
+<body">
     <div class="container">
 
         <header>
-          <img src="https://i.ibb.co/VBjnWJK/logo.png" alt="">
+          <img src="{% static 'images/logo.png' %}" alt="">
           <nav>
             <ul>
               <li>

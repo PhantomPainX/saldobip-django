@@ -6,6 +6,17 @@
   box-sizing: inherit;
 }
 
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  background: "fondo.jpg" no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  color: #0a0a0b;
+  overflow: hidden;
+}
+
 ::-webkit-input-placeholder {
   color: #56585b;
 }
@@ -24,16 +35,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  background: url('https://i.imgur.com/M5pdKL9.jpg') no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  color: #0a0a0b;
-  overflow: hidden;
-}
 
 ul, nav{
   list-style: none;
